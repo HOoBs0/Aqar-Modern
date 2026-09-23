@@ -27,7 +27,7 @@ export function SiteHeader() {
     </div>
     <div className={`mobile-menu ${isMenuOpen ? 'is-open' : ''}`} aria-hidden={!isMenuOpen}>
       <nav aria-label="قائمة الهاتف">{links.map((link) => <a key={link.href} href={link.href} onClick={closeMenu}>{link.label}</a>)}</nav>
-      <a className="mobile-menu-cta" href="#contact" onClick={closeMenu}>احجز استشارتك المجانية</a>
+      <a className="mobile-menu-cta gold-btn" href="#contact" onClick={closeMenu}>احجز استشارتك المجانية</a>
     </div>
   </header>
 }
