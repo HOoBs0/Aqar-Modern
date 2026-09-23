@@ -49,21 +49,7 @@ export const metadata: Metadata = {
     images: ['https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-fFBzVfG80YOiSq2C5fdXV9Q3b7PPMF.png'],
   },
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+    icon: '/icon.svg',
   },
 }
 
