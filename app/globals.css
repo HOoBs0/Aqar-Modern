@@ -90,6 +90,7 @@ body {
 .mobile-menu {
   display: none;
 }
+
 .topbar nav a,
 .footer-links a {
   color: #bbc0b9;
@@ -620,7 +621,7 @@ footer {
     padding: 18px 20px;
     justify-content: center;
     background: #e1b568;
-    color: #b8c0b9;
+    color: #172018;
     text-decoration: none;
     font-size: 17px;
     border-radius: 4px;
